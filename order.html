@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend align="center">Te dhenat personale</legend>
+            <input type="text" placeholder="Shkruaje emrin" required>
+            <input type="text" placeholder="Shkruaje mbiemrin" required>
+            <input type="e-mail" placeholder="Shkruaje e-mail">
+            <input type="tel" placeholder="Shkruaje nr. te telefonit" required>
+            <input type="address" placeholder="Jepe adresen" required>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend align="center">Porosia</legend>
+            <input type="checkbox" name="tiramisu" value="Tiramisu" id="Tiramisu">
+            <label for="Tiramisu">Tiramisu</label>
+            <input type="range" name="piece" id="tpiece" min="0" max="30" step="1">
+            <br>
+            <input type="checkbox" name="chocolate" value="chocolate" id="chocolate">
+            <label for="chocolate">Chocolate cake</label>
+            <input type="range" name="piece" id="chocopiece" min="0" max="30" step="1">
+            <br>
+            <input type="checkbox" name="cheese" value="cheese" id="cheese">
+            <label for="cheese">Cheese cake</label>
+            <input type="range" name="piece" id="cheesepiece" min="0" max="30" step="1">
+
+        </fieldset>
+        <br>
+         <br>
+        <form>
+            <textarea name="message" id="message" placeholder="Specific requirments" cols="45" rows="10"></textarea>
+        </form>
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="radio" name="hereorway" value="eathere" id="eathere">
+        <label for="eathere">Eat here</label>
+        <input type="radio" name="hereorway" value="takeway" id="takeway">
+        <label for="takeway">Takeway</label>
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="submit" value="Dergo porosine">
+    </form>
+</body>
+</html>
